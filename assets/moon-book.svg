@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" role="img" aria-label="Pastel moon over an open book">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd6ea"/>
+      <stop offset="0.48" stop-color="#dfd2ff"/>
+      <stop offset="1" stop-color="#c8f0dd"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="360" height="360" rx="28" fill="url(#sky)"/>
+  <circle cx="183" cy="126" r="68" fill="#fff1b8" filter="url(#glow)"/>
+  <circle cx="211" cy="103" r="67" fill="#dfd2ff" opacity="0.92"/>
+  <path d="M78 230c38-24 76-22 114 5 38-27 76-29 114-5v72c-38-18-76-16-114 7-38-23-76-25-114-7z" fill="#fff8fc" stroke="#5a376b" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M192 235v74" stroke="#b3558a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M101 255c22-8 44-7 66 3M217 258c22-10 45-10 68-2" stroke="#745f7e" stroke-width="5" stroke-linecap="round" opacity="0.65"/>
+  <g fill="#fff8fc" stroke="#5a376b" stroke-width="4" stroke-linejoin="round">
+    <path d="M73 88l9 20 21 8-21 8-9 20-9-20-21-8 21-8z"/>
+    <path d="M283 62l7 15 16 6-16 6-7 15-7-15-16-6 16-6z"/>
+    <path d="M284 164l5 11 12 5-12 5-5 11-5-11-12-5 12-5z"/>
+  </g>
+</svg>

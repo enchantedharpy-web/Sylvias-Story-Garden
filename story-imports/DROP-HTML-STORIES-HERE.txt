@@ -1,0 +1,5 @@
+Drop exported .htm or .html story files in this folder.
+
+Then double-click update-library.bat in the main website folder.
+
+The updater will rebuild stories-data.js, and the website library will show the imported stories after refresh.

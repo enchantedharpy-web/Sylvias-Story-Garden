@@ -1,0 +1,16 @@
+{
+  "stories": [
+    {
+      "id": "freja-astrid",
+      "title": "Freja & Astrid",
+      "subtitle": "A parallel bilingual story",
+      "summary": "The rain falls on the roof of Freya's cave. Freya sits in her chair. She reads. She has been reading all morning. There are books on the table. There are books on the floor. There are boo...",
+      "tags": [
+        "parallel text",
+        "Danish",
+        "English"
+      ],
+      "file": "freja-astrid.json"
+    }
+  ]
+}
