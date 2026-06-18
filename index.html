@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Astrid's Story Garden</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20260618">
+</head>
+<body>
+  <div class="sparkle-field" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Astrid's Story Garden home">
+      <img src="assets/moon-book.svg" alt="" class="brand-mark">
+      <span>Sylvia's Story Garden</span>
+    </a>
+    <nav class="top-nav" aria-label="Primary navigation">
+      <a href="#library">Stories</a>
+      <a href="#reader">Reader</a>
+      
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="intro" aria-labelledby="intro-title">
+      <div class="intro-copy">
+        <p class="kicker">A pastel goth's bilingual fiction</p>
+        <h1 id="intro-title">Soft little stories with moonlight, tea, and glitter in the margins~! ;D</h1>
+        <p class="intro-text">My very own personal library, full of my own stuff! I'd be alittle shocked if theres anyone else reading this ;O </p>
+      </div>
+      <div class="intro-art" aria-hidden="true">
+        <img src="assets/moon-book.svg" alt="">
+      </div>
+    </section>
+
+    <section class="toolbar" aria-label="Story controls">
+      <label class="search-box">
+        <span>Search</span>
+        <input id="storySearch" type="search" placeholder="Find chapters, tea, dragons...">
+      </label>
+      <div class="segmented" role="group" aria-label="Reader view">
+        <button class="active" type="button" data-view="parallel">Parallel</button>
+        <button type="button" data-view="left">Dansk</button>
+        <button type="button" data-view="right">English</button>
+      </div>
+    </section>
+
+    <section id="library" class="library-section" aria-labelledby="library-title">
+      <div class="section-heading">
+        <p class="kicker">library</p>
+        <h2 id="library-title">Stories</h2>
+      </div>
+      <div id="storyList" class="story-list" aria-live="polite"></div>
+    </section>
+
+    <section id="reader" class="reader-section" aria-labelledby="readerTitle">
+      <aside class="chapter-rail" aria-label="Chapters">
+        <div class="rail-title">Chapters</div>
+        <div id="chapterList" class="chapter-list"></div>
+      </aside>
+      <article class="reader" aria-live="polite">
+        <div class="reader-head">
+          <p id="readerMeta" class="kicker"></p>
+          <h2 id="readerTitle">Choose a story</h2>
+          <p id="readerSummary"></p>
+        </div>
+        <div id="passages" class="passages"></div>
+      </article>
+    </section>
+
+    
+  </main>
+
+  <script src="stories-data.js?v=20260618-2"></script>
+  <script src="app.js"></script>
+</body>
+</html>

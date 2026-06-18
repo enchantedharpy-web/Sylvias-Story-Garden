@@ -1,0 +1,4 @@
+For future stories (because I'm a gold fiiiish)      
+1) Use "NOVA Text Aligner" to export your story as an .html
+2) Drop the exported file into story-imports/
+3) Double-click update-library.bat, then refresh the page.
